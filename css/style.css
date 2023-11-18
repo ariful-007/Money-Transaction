@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background-color:#557C55;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#main .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main .left{
+    padding: 20px 20px;
+    width:70%;
+    height: 750px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+}
+#main .left h3{
+    background-color: #212A3E;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+#main .text h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #212A3E;
+}
+#main .text span{
+    color: #fff;
+}
+
+#main .all-item{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#main .item{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: #D2E0FB;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #1F1717;
+    cursor: pointer;
+}
+
+#main .menu .right{
+    padding: 20px 20px;
+    width: 30%;
+    height: 750px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #F5E8C7 ;
+    text-align: center;
+}
+
+#main .menu .right  h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #212A3E;
+}
+
+#main .notif{
+    padding: 10px 10px;
+    background-color: #4E9F3D;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#main .notif a {
+    color: #212A3E;
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    transform: translate(-50%);
+}
+
+#main .notif-1{
+    padding: 10px 10px;
+    background-color: #4E9F3D;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#main .notif-1 a {
+    color: #212A3E;
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    transform: translate(-50%);
+}
+
+#main .notif-2{
+    padding: 10px 10px;
+    background-color: #4E9F3D;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#main .notif-2 a {
+    color: #212A3E;
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    transform: translate(-50%);
+}
+
+/* ====tost meassges cash in and cash out===== */
+.tost-1{
+    width: 600px;
+    height: auto;
+    background-color: #4E9F3D;
+    margin: auto;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 80px;
+    display: none;
+}
+
+.tost-1 input{
+    display:block;
+    padding: 8px 10px;
+    border: 1px solid wheat;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin:0 auto;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.tost-1 button{
+    width: 150px;
+    padding: 6px 10px;
+    border: 1px solid #D80032;
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #D80032;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.tost-1 h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #212A3E;
+    margin-bottom: 10px;
+}
+.tost-1 h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #212A3E;
+    margin-bottom: 10px;
+}
+
+
+/* ====tost meassges cash in and cash out END===== */
+
+/* ====flexilode tost ===== */
+.flexi-tost{
+    width: 400px;
+    height: auto;
+    background-color: #4E9F3D;
+    margin: auto;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 80px;
+    display: none;
+}
+
+.flexi-tost h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #212A3E;
+    margin-bottom: 10px;
+}
+
+.flexi-tost h6{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: wheat;
+    margin-bottom: 10px;
+    background-color: #D80032;
+    cursor: pointer;
+    
+}
+/* ====flexilode tost end===== */

@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background-color: #39A7FF;
+}
+
+.container{
+    width: 1120px ;
+    margin: 0 auto;
+}
+
+#main .main-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+#main .main-item .login{
+    width: 600px;
+    background-color: #FFEA20;
+    padding: 20px 30px;
+    border-radius: 10px;
+    height: 400px;
+}
+#main .main-item .login h1{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #212A3E;
+    margin-bottom: 40px;
+}
+
+#main .number-input{
+    width: 70%;
+    display: block;
+    padding: 10px 30px;
+    border: 1px solid #FFE5E5;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #212A3E;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 81px;
+}
+
+#main .pin-input{
+    width: 70%;
+    display: block;
+    padding: 10px 30px;
+    border: 1px solid #FFE5E5;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #212A3E;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    margin-left: 81px;
+}
+
+#main .btn{
+    width: 70%;
+    padding: 7px 30px;
+    border: 1px solid #FFE5E5;
+    outline: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    margin-left: 4px;
+    background-color: #FF6969;
+    cursor: pointer;
+}
